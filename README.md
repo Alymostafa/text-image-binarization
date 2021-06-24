@@ -27,6 +27,4 @@ For application reasons, the implementation here is a little bit
 different from the paper.
 
 Right now, the last step (Estimate light distribution) takes a long
-time. Because this step cannot be optimized using numpy. However,
-there must be some other ways to improve the efficiency. I will work
-on it later.
+time. we can optimize it using "numba"
